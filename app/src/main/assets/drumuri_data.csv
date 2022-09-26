@@ -1,0 +1,63 @@
+Sinaia,Poiana Stanii,45,1.5,1.25,bandaalbastra,TRUE
+Poiana Stanii,Piatra Arsa,55,2,1.75,bandaalbastra,FALSE
+Sinaia,Cota 1400,45,1.5,1.25,bandarosie,TRUE
+Cota 1400,Piatra Turcului,22,1.5,1.25,bandarosie,TRUE
+Piatra Turcului,Fosta Cabana Varful cu Dor,5,0.25,0.25,bandarosie,TRUE
+Piatra Turcului,Saua Vanturis,23,1,1,cercrosu,FALSE
+Saua Vanturis,Varful cu Dor,15,1,0.75,cercgalben,FALSE
+Varful cu Dor,Cota 2000,7,0.25,0.25,cercgalben,FALSE
+Saua Vanturis,Valea Soarelui,25,1,0.75,cercrosu,FALSE
+Valea Soarelui,Cota 2000,25,1.25,1,bandarosie,TRUE
+Cabana Bolboci,Valea Soarelui,55,2.5,2,crucegalbena,TRUE
+Cabana Padina,Valea Soarelui,53,2,1.75,bandarosie,TRUE
+Cabana Bolboci,Cabana Padina,84,3,3,crucealbastra,TRUE
+Cabana Padina,Pestera Ialomitei,15,0.25,0.25,crucealbastra,TRUE
+Pestera Ialomitei,Hotel Pestera,10,0.25,0.25,crucealbastra,TRUE
+Hotel Pestera,Piatra Arsa,48,2.25,1.75,bandaalbastra,TRUE
+Fosta Cabana Varful cu Dor,Piatra Arsa,38,1.5,1.5,bandagalbena,FALSE
+Fosta Cabana Varful cu Dor,Cota 2000,10,0.75,0.5,bandarosie,TRUE
+Piatra Arsa,Cota 2000,30,1.25,1,bandagalbena,TRUE
+Piatra Arsa,Canton Jepi,10,0.25,0.25,triunghialbastru,FALSE
+Piatra Arsa,Platoul Piatra Arsa,25,1,0.75,bandagalbena,TRUE
+Platoul Piatra Arsa,Babele si Sfinxul,12,0.5,0.25,bandagalbena,TRUE
+Platoul Piatra Arsa,Cabana Caraiman,8,0.25,0.25,cercalbastru,TRUE
+Hotel Pestera,Babele si Sfinxul,34,2,1.5,crucealbastra,TRUE
+Cabana Caraiman,Babele si Sfinxul,16,0.5,0.25,crucealbastra,FALSE
+Busteni,Cabana Caraiman,54,4.5,3,crucealbastra,FALSE
+Busteni,La Vinclu,32,1.5,1,triunghialbastru,FALSE
+La Vinclu,Canton Jepi,38,2.5,2,triunghialbastru,FALSE
+Busteni,Cascada Urlatoarea,34,1.5,1,cercrosu,TRUE
+Cascada Urlatoarea,La Vinclu,5,0.25,0.25,cercrosu,FALSE
+Poiana Tapului,Cascada Urlatoarea,27,1.25,0.75,cercalbastru,TRUE
+Poiana Tapului,Poiana Stanii,44,2,1.25,cercgalben,TRUE
+Busteni,Poiana Costilei,50,2,1.5,triunghirosu,TRUE
+Busteni,Valea Cerbului,34,1,1,bandarosie,TRUE
+Valea Cerbului,Cabana Gura Diham,12,0.5,0.25,bandarosie,TRUE
+Valea Cerbului,Poiana Costilei,27,1.5,1,bandagalbena,TRUE
+Poiana Costilei,Pichetul Rosu,31,1.25,1,triunghirosu,TRUE
+Poiana Costilei,Cabana Omu,61,4,3,bandagalbena,FALSE
+Cabana Gura Diham,Cabana Diham,44,1.75,1.5,triunghialbastru,TRUE
+Cabana Gura Diham,Poiana Izvoarelor,31,1.25,1,bandarosie,TRUE
+Poiana Izvoarelor,Pichetul Rosu,10,0.25,0.25,bandarosie,TRUE
+Cabana Diham,Pichetul Rosu,24,1,0.75,cercrosu,TRUE
+Glajarie,Cabana Diham,21,1.25,0.75,crucealbastra,TRUE
+Rasnov,Glajarie,140,4.5,4,bandaalbastra,TRUE
+Glajarie,Cabana Malaiesti,32,2.25,1.25,bandaalbastra,TRUE
+Pichetul Rosu,La Perpeleac,27,1.25,1,bandarosie,FALSE
+La Perpeleac,Cabana Malaiesti,15,1,1,triunghirosu,FALSE
+La Perpeleac,Sub Bucsoiu,11,1.5,0.5,bandarosie,FALSE
+Sub Bucsoiu,Cabana Omu,21,1.5,1.25,bandarosie,FALSE
+Cabana Malaiesti,Refugiul Tiganesti,28,1.5,1,bandagalbena,TRUE
+Refugiul Tiganesti,Varful Scara,17,1,0.5,bandarosie,TRUE
+Varful Scara,Saua Hornuri,7,0.25,0.25,bandarosie,TRUE
+Cabana Malaiesti,Terasa glaciara,11,0.75,0.25,bandaalbastra,TRUE
+Terasa glaciara,Saua Hornuri,16,1.25,0.75,bandaalbastra,TRUE
+Terasa glaciara,Sub Bucsoiu,18,2,1.5,triunghialbastru,FALSE
+Saua Hornuri,Cabana Omu,15,1,0.5,bandaalbastra,TRUE
+Saua Cerbului,Cabana Omu,10,0.5,0.25,bandagalbena,TRUE
+Hotel Pestera,Saua Cerbului,62,3,2,bandaalbastra,TRUE
+Saua Sugarilor,Saua Cerbului,15,0.5,0.5,bandagalbena,TRUE
+Babele si Sfinxul,Saua Sugarilor,29,1.5,1.25,bandagalbena,TRUE
+Saua Sugarilor,Crucea Eroilor,35,1.5,1.5,crucerosie,FALSE
+Cabana Caraiman,Crucea Eroilor,16,1,0.75,cercalbastru,FALSE
+Babele si Sfinxul,Crucea Eroilor,31,1.5,1.25,crucerosie,FALSE

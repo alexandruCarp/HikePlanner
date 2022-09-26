@@ -1,0 +1,41 @@
+Sinaia,gara,810,TRUE,TRUE,TRUE,TRUE,TRUE,sinaia,3,TRUE
+Poiana Stanii,loc,1270,FALSE,TRUE,FALSE,FALSE,FALSE,poianastanii,2,TRUE
+Piatra Arsa,cabana,1950,FALSE,TRUE,FALSE,TRUE,TRUE,piatraarsa,2,TRUE
+Busteni,gara,880,TRUE,TRUE,TRUE,TRUE,TRUE,busteni,3,TRUE
+Cabana Omu,cabana,2507,FALSE,FALSE,FALSE,TRUE,TRUE,cabanaomu,2,TRUE
+Cabana Malaiesti,cabana,1720,FALSE,FALSE,FALSE,TRUE,TRUE,cabanamalaiesti,3,TRUE
+Cabana Padina,cabana,1525,FALSE,TRUE,FALSE,TRUE,TRUE,cabanapadina,2,TRUE
+Cota 1400,loc,1400,FALSE,TRUE,TRUE,TRUE,TRUE,cota1400,2,TRUE
+Piatra Turcului,loc,1780,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Saua Vanturis,loc,1690,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Varful cu Dor,loc,2030,FALSE,FALSE,FALSE,FALSE,FALSE,varfulcudor,2,TRUE
+Fosta Cabana Varful cu Dor,loc,1870,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Cota 2000,loc,2000,FALSE,FALSE,TRUE,TRUE,FALSE,cota2000,3,TRUE
+Valea Soarelui,cabana,1760,FALSE,FALSE,TRUE,TRUE,FALSE,valeasoarelui,2,TRUE
+Cabana Bolboci,cabana,1430,FALSE,TRUE,FALSE,TRUE,TRUE,bolboci,3,TRUE
+Pestera Ialomitei,obiectiv turistic,1640,FALSE,TRUE,FALSE,FALSE,FALSE,pesteraialomitei,2,TRUE
+Hotel Pestera,cabana,1600,FALSE,TRUE,TRUE,TRUE,TRUE,hotelpestera,2,TRUE
+Poiana Tapului,gara,840,TRUE,TRUE,FALSE,TRUE,TRUE,poianatapului,2,TRUE
+Canton Jepi,loc,1960,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+La Vinclu,loc,1200,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Cascada Urlatoarea,obiectiv turistic,1150,FALSE,FALSE,FALSE,FALSE,FALSE,duruitoare,2,TRUE
+Platoul Piatra Arsa,loc,2100,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Babele si Sfinxul,obiectiv turistic,2200,FALSE,FALSE,TRUE,FALSE,FALSE,babele,2,TRUE
+Cabana Caraiman,cabana,2025,FALSE,FALSE,FALSE,FALSE,TRUE,cabcaraiman,2,TRUE
+Crucea Eroilor,obiectiv turistic,2300,FALSE,FALSE,FALSE,FALSE,FALSE,cruce,2,TRUE
+Saua Sugarilor,loc,2310,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Saua Cerbului,loc,2325,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Poiana Costilei,loc,1300,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Valea Cerbului,loc,950,FALSE,TRUE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Cabana Gura Diham,cabana,1000,FALSE,TRUE,FALSE,TRUE,TRUE,guradiham,2,TRUE
+Poiana Izvoarelor,cabana,1450,FALSE,FALSE,FALSE,FALSE,FALSE,poianaizvoarelor,2,TRUE
+Pichetul Rosu,loc,1420,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Cabana Diham,cabana,1320,FALSE,TRUE,FALSE,TRUE,TRUE,diham,2,TRUE
+Glajarie,loc,1110,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+La Perpeleac,loc,1740,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Rasnov,gara,630,TRUE,TRUE,FALSE,TRUE,TRUE,rasnov,3,TRUE
+Sub Bucsoiu,loc,2260,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Terasa glaciara,loc,1880,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Saua Hornuri,loc,2310,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Varful Scara,loc,2410,FALSE,FALSE,FALSE,FALSE,FALSE,nu e cazu,0,FALSE
+Refugiul Tiganesti,refugiu,2170,FALSE,FALSE,FALSE,FALSE,TRUE,reftiganesti,2,TRUE

@@ -1,0 +1,661 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "0",
+        "tip": "gara",
+        "nume": "Sinaia"
+      },
+      "geometry": {
+        "coordinates": [
+          25.552934,
+          45.35257
+        ],
+        "type": "Point"
+      },
+      "id": "0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "13",
+        "nume": "Valea Soarelui",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.474464,
+          45.357355
+        ],
+        "type": "Point"
+      },
+      "id": "01eddce37dec46ea6b1257e1781ff770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "40",
+        "nume": "Refugiul Tiganesti",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.434241,
+          45.462254
+        ],
+        "type": "Point"
+      },
+      "id": "01fea8523f14a57079033bde4152f856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "37",
+        "nume": "Terasa Glaciara",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.449601,
+          45.45722
+        ],
+        "type": "Point"
+      },
+      "id": "0ad0c88d5cf567621f5f82d8b41e1533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "1",
+        "tip": "obiectiv",
+        "nume": "Poiana Stânii"
+      },
+      "geometry": {
+        "coordinates": [
+          25.523569,
+          45.368046
+        ],
+        "type": "Point"
+      },
+      "id": "1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "25",
+        "nume": "Saua Sugarilor",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.464084,
+          45.430761
+        ],
+        "type": "Point"
+      },
+      "id": "1db3393f60229985c0161e3b28814a8e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "2",
+        "tip": "cabana",
+        "nume": "Cabana Piatra Arsă"
+      },
+      "geometry": {
+        "coordinates": [
+          25.487709,
+          45.383881
+        ],
+        "type": "Point"
+      },
+      "id": "2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "18",
+        "tip": "intersectie",
+        "nume": "Canton Jepi"
+      },
+      "geometry": {
+        "coordinates": [
+          25.498953,
+          45.386958
+        ],
+        "type": "Point"
+      },
+      "id": "294e73ab280e8d1dd29f82597c79b580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "3",
+        "tip": "gara",
+        "nume": "Bușteni"
+      },
+      "geometry": {
+        "coordinates": [
+          25.537339,
+          45.415858
+        ],
+        "type": "Point"
+      },
+      "id": "3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "10",
+        "nume": "Varful cu Dor",
+        "tip": "obiectiv"
+      },
+      "geometry": {
+        "coordinates": [
+          25.490075,
+          45.351451
+        ],
+        "type": "Point"
+      },
+      "id": "33db3e2c8121a9661a6cb96a72c36f7d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "4",
+        "tip": "cabana",
+        "nume": "Cabana Omu"
+      },
+      "geometry": {
+        "coordinates": [
+          25.456178,
+          45.445443
+        ],
+        "type": "Point"
+      },
+      "id": "4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "20",
+        "nume": "Cascada Urlatoarea",
+        "tip": "obiectiv"
+      },
+      "geometry": {
+        "coordinates": [
+          25.517581,
+          45.396647
+        ],
+        "type": "Point"
+      },
+      "id": "46baa8f4c7c9005f2166a496583434be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "5",
+        "tip": "cabana",
+        "nume": "Cabana Mălăiești"
+      },
+      "geometry": {
+        "coordinates": [
+          25.45335,
+          45.465709
+        ],
+        "type": "Point"
+      },
+      "id": "5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "33",
+        "nume": "Glajarie",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.476147,
+          45.480958
+        ],
+        "type": "Point"
+      },
+      "id": "546c834be09cd66d8d8bdea40c4b9131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "38",
+        "nume": "Saua Hornuri",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.440206,
+          45.448352
+        ],
+        "type": "Point"
+      },
+      "id": "5865ed66ec7292b3b9b5593dd1f9eb9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "30",
+        "nume": "Cabana Poiana Izvoarelor",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.496977,
+          45.462024
+        ],
+        "type": "Point"
+      },
+      "id": "5929aee5ee9f7faa4da7392c062de8e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "6",
+        "tip": "cabana",
+        "nume": "Cabana Padina"
+      },
+      "geometry": {
+        "coordinates": [
+          25.432986,
+          45.383221
+        ],
+        "type": "Point"
+      },
+      "id": "6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "15",
+        "nume": "Pestera Ialomitei",
+        "tip": "obiectiv"
+      },
+      "geometry": {
+        "coordinates": [
+          25.436836,
+          45.393135
+        ],
+        "type": "Point"
+      },
+      "id": "61d9fb4fbb8aad9a98c4c7107fd79b28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "27",
+        "nume": "Poiana Costilei",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.502088,
+          45.441071
+        ],
+        "type": "Point"
+      },
+      "id": "6c02f8a90d564b7cef62f34fb2274cd9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "31",
+        "tip": "intersectie",
+        "nume": "Pichetul Roșu"
+      },
+      "geometry": {
+        "coordinates": [
+          25.488871,
+          45.461208
+        ],
+        "type": "Point"
+      },
+      "id": "7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "7",
+        "nume": "Cota 1400",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.519162,
+          45.35572
+        ],
+        "type": "Point"
+      },
+      "id": "71dfa3e5de42154fec665274ba34ecb7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "35",
+        "nume": "Rasnov",
+        "tip": "gara"
+      },
+      "geometry": {
+        "coordinates": [
+          25.458205,
+          45.594811
+        ],
+        "type": "Point"
+      },
+      "id": "75cdccbdcd0f5d36bf4532fc6c137fb1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "39",
+        "nume": "Varful Scara",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.431713,
+          45.449807
+        ],
+        "type": "Point"
+      },
+      "id": "767fdadc1d23d27fadb2ca8175019660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "17",
+        "nume": "Poiana Tapului",
+        "tip": "gara"
+      },
+      "geometry": {
+        "coordinates": [
+          25.541311,
+          45.390699
+        ],
+        "type": "Point"
+      },
+      "id": "793b6fd9bbe4118560a6be18635b676b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "29",
+        "nume": "Cabana Gura Diham",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.519975,
+          45.448932
+        ],
+        "type": "Point"
+      },
+      "id": "880d5e4ab602d329bad84325732edb77"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "14",
+        "nume": "Cabana Bolboci",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.425658,
+          45.341354
+        ],
+        "type": "Point"
+      },
+      "id": "8d66c1e3e9e6665c85d9c104fe20df15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "23",
+        "nume": "Cabana Caraiman",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.486381,
+          45.408557
+        ],
+        "type": "Point"
+      },
+      "id": "8f61eb7630754c65c4d4c2f74028a7a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "26",
+        "nume": "Saua Cerbului",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.452552,
+          45.43909
+        ],
+        "type": "Point"
+      },
+      "id": "968526b9c8258113d870643207f36d56"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "21",
+        "nume": "Bifurcatie Piatra Arsa-Babele/Caraiman",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.48542,
+          45.403601
+        ],
+        "type": "Point"
+      },
+      "id": "9da5abe9f391b84fa930332a08e63a4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "36",
+        "nume": "Sub Bucsoiu",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.464468,
+          45.460752
+        ],
+        "type": "Point"
+      },
+      "id": "a3fa782db726d1191ac16a2cf2bac10c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "9",
+        "nume": "Saua Vanturis",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.479314,
+          45.3432
+        ],
+        "type": "Point"
+      },
+      "id": "aa9994925fec7cc01b1e28d564e7763e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "34",
+        "nume": "La Perpeleac",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.46923,
+          45.46815
+        ],
+        "type": "Point"
+      },
+      "id": "b6a43d6726733a99340b98cb0b695138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "28",
+        "nume": "Valea Cerbului",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.526598,
+          45.439788
+        ],
+        "type": "Point"
+      },
+      "id": "b805f056d9c5bdede0e564ad3933a84e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "22",
+        "nume": "Babele si Sfinxul",
+        "tip": "obiectiv"
+      },
+      "geometry": {
+        "coordinates": [
+          25.471339,
+          45.407027
+        ],
+        "type": "Point"
+      },
+      "id": "bfccf8f1a46c84d17fd1619c1c0c5c15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "32",
+        "nume": "Cabana Diham",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.497403,
+          45.477366
+        ],
+        "type": "Point"
+      },
+      "id": "c2ef9e86fd269dd80f186a000703a1a4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "24",
+        "nume": "Crucea Eroilor",
+        "tip": "obiectiv"
+      },
+      "geometry": {
+        "coordinates": [
+          25.497288,
+          45.415975
+        ],
+        "type": "Point"
+      },
+      "id": "c64334c9ec5885777af1ebe25a0f29d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "16",
+        "nume": "Hotel Pestera",
+        "tip": "cabana"
+      },
+      "geometry": {
+        "coordinates": [
+          25.442718,
+          45.395865
+        ],
+        "type": "Point"
+      },
+      "id": "d1d7f0b38e40edc709eda69172b93ad2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "19",
+        "nume": "La Vinclu",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.515031,
+          45.397599
+        ],
+        "type": "Point"
+      },
+      "id": "e8f2cf9e78e6e697f9394428bbf6da95"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "11",
+        "nume": "Fosta Cabana Varful cu Dor",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.496103,
+          45.354393
+        ],
+        "type": "Point"
+      },
+      "id": "f778e1984392e94184d2601822971a05"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "8",
+        "nume": "Piatra Turcului",
+        "tip": "intersectie"
+      },
+      "geometry": {
+        "coordinates": [
+          25.499061,
+          45.352334
+        ],
+        "type": "Point"
+      },
+      "id": "f91681120d41cb45f66ed7524b3a462c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "index": "12",
+        "nume": "Cota 2000",
+        "tip": "obiectiv"
+      },
+      "geometry": {
+        "coordinates": [
+          25.494249,
+          45.359371
+        ],
+        "type": "Point"
+      },
+      "id": "fb900850db9f3b90339982fa7b3b43fc"
+    }
+  ],
+  "type": "FeatureCollection"
+}

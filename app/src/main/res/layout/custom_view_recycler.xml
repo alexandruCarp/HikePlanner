@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ccc"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/imagineob"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/titluob"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="128dp"
+                android:text="TITLU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imagineob"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/altitudineob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Altitudine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toEndOf="@+id/imagineob"
+                app:layout_constraintTop_toBottomOf="@+id/titluob"
+                app:layout_constraintVertical_bias="0.050000012" />
+
+            <ImageView
+                android:id="@+id/imaginemasina"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toEndOf="@+id/altitudineob"
+                app:layout_constraintTop_toBottomOf="@+id/titluob"
+                app:srcCompat="@drawable/ic_baseline_directions_car_24" />
+
+            <ImageView
+                android:id="@+id/imaginerestaurant"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintStart_toEndOf="@+id/imaginemasina"
+                app:layout_constraintTop_toTopOf="@+id/imaginemasina"
+                app:srcCompat="@drawable/ic_baseline_restaurant_24" />
+
+            <ImageView
+                android:id="@+id/imaginehotel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintStart_toEndOf="@+id/imaginerestaurant"
+                app:layout_constraintTop_toTopOf="@+id/imaginemasina"
+                app:srcCompat="@drawable/ic_baseline_hotel_24" />
+
+            <Button
+                android:id="@+id/butonstart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/start"
+                app:layout_constraintStart_toStartOf="@+id/textseteazaca"
+                app:layout_constraintTop_toBottomOf="@+id/textseteazaca" />
+
+            <TextView
+                android:id="@+id/textseteazaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Seteaza ca : "
+                app:layout_constraintStart_toEndOf="@+id/imagineob"
+                app:layout_constraintTop_toBottomOf="@id/imaginemasina"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <Button
+                android:id="@+id/butondest"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/finish_flag"
+                app:layout_constraintStart_toEndOf="@id/butonstart"
+                app:layout_constraintTop_toTopOf="@id/butonstart" />
+
+            <Button
+                android:id="@+id/butonspreharta"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/location"
+                app:layout_constraintBottom_toBottomOf="@id/butonstart"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

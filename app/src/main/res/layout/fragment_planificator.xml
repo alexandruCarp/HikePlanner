@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/brana_caprelor_vara" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            tools:context=".planificatorFragment">
+
+            <TextView
+                android:id="@+id/textdela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="De la "
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <AutoCompleteTextView
+                android:id="@+id/introducerestart"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:completionThreshold="1"
+                android:hint="Loc plecare"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#DAC2C2"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="@+id/textdela"
+                app:layout_constraintTop_toBottomOf="@+id/textdela" />
+
+            <CheckBox
+                android:id="@+id/checkBoxplecare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Punct de plecare variabil"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/introducerestart"
+                app:layout_constraintStart_toEndOf="@+id/introducerestart"
+                app:layout_constraintTop_toTopOf="@+id/introducerestart" />
+
+
+            <TextView
+                android:id="@+id/textfiltruplecare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Plecare doar din locuri cu:"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/introducerestart"
+                app:layout_constraintTop_toBottomOf="@+id/introducerestart" />
+
+            <CheckBox
+                android:id="@+id/checkBoxautop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="auto"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/textacces"
+                app:layout_constraintTop_toBottomOf="@+id/textfiltruplecare" />
+
+            <CheckBox
+                android:id="@+id/checkBoxtelep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="telecabina"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/checkBoxautop"
+                app:layout_constraintTop_toTopOf="@+id/checkBoxautop" />
+
+            <CheckBox
+                android:id="@+id/checkBoxtrenp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="tren"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/checkBoxtelep"
+                app:layout_constraintTop_toTopOf="@+id/checkBoxtelep" />
+
+            <TextView
+                android:id="@+id/textacces"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Acces:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/checkBoxautop"
+                app:layout_constraintStart_toStartOf="@+id/textfiltruplecare"
+                app:layout_constraintTop_toTopOf="@+id/checkBoxautop"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/checkBoxrestp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Restaurant"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/textacces"
+                app:layout_constraintTop_toBottomOf="@+id/textacces" />
+
+            <CheckBox
+                android:id="@+id/checkBoxcazarep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Cazare"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/checkBoxrestp"
+                app:layout_constraintTop_toTopOf="@+id/checkBoxrestp" />
+
+            <TextView
+                android:id="@+id/textpanala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pana la"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="@+id/textdela"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxrestp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/introducerefinish"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:completionThreshold="1"
+                android:hint="Destinatie"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#DAC2C2"
+                app:layout_constraintStart_toStartOf="@+id/textpanala"
+                app:layout_constraintTop_toBottomOf="@+id/textpanala" />
+
+            <CheckBox
+                android:id="@+id/checkBoxdestinatie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Destinatie variablia"
+                android:textColor="#FAF7F7"
+                app:layout_constraintBottom_toBottomOf="@+id/introducerefinish"
+                app:layout_constraintStart_toEndOf="@+id/introducerefinish"
+                app:layout_constraintTop_toTopOf="@+id/introducerefinish" />
+
+            <TextView
+                android:id="@+id/textfiltrudestinatie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sosire doar in locuri cu:"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/introducerefinish"
+                app:layout_constraintTop_toBottomOf="@+id/introducerefinish" />
+
+            <TextView
+                android:id="@+id/acces2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acces:"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/checkBoxautod"
+                app:layout_constraintStart_toStartOf="@+id/textfiltrudestinatie"
+                app:layout_constraintTop_toBottomOf="@+id/textfiltrudestinatie" />
+
+            <CheckBox
+                android:id="@+id/checkBoxautod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="auto"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/acces2"
+                app:layout_constraintTop_toBottomOf="@+id/textfiltrudestinatie" />
+
+            <CheckBox
+                android:id="@+id/checkBoxtelecabinad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="telecabina"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/checkBoxautod"
+                app:layout_constraintTop_toTopOf="@id/checkBoxautod" />
+
+            <CheckBox
+                android:id="@+id/checkBoxtrend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="tren"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/checkBoxtelecabinad"
+                app:layout_constraintTop_toTopOf="@+id/checkBoxtelecabinad" />
+
+            <CheckBox
+                android:id="@+id/checkBoxrestd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Restaurant"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/acces2"
+                app:layout_constraintTop_toBottomOf="@+id/acces2" />
+
+            <TextView
+                android:id="@+id/textoptiunitraseu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Optiuni traseu"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="@+id/checkBoxrestd"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxrestd" />
+
+            <CheckBox
+                android:id="@+id/checkBoxcazared"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Cazare"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/checkBoxrestd"
+                app:layout_constraintTop_toTopOf="@+id/checkBoxrestd" />
+
+            <TextView
+                android:id="@+id/textdurata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Durata : 0h - 15h +"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/textoptiunitraseu"
+                app:layout_constraintTop_toBottomOf="@+id/textoptiunitraseu" />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/sliderdur"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:valueFrom="0.0"
+                android:valueTo="15.0"
+                app:layout_constraintStart_toStartOf="@+id/textdurata"
+                app:layout_constraintTop_toBottomOf="@+id/textdurata"
+                app:values="@array/initial_slider_values" />
+
+            <TextView
+                android:id="@+id/textsezon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sezon : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/sliderdur"
+                app:layout_constraintTop_toBottomOf="@+id/sliderdur" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonsezon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/toggle_selector"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textsezon"
+                app:layout_constraintStart_toEndOf="@id/textsezon"
+                app:layout_constraintTop_toTopOf="@id/textsezon" />
+
+
+            <Button
+                android:id="@+id/buttoncauta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="70dp"
+                android:text="CAUTA"
+                app:layout_constraintStart_toEndOf="@+id/toggleButtonsezon"
+                app:layout_constraintTop_toBottomOf="@+id/sliderdur" />
+
+            <Button
+            android:id="@+id/butonInverseaza1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_baseline_swap_vertical_circle_24"
+            app:layout_constraintBottom_toBottomOf="@+id/textdela"
+            app:layout_constraintStart_toEndOf="@+id/textdela"
+            app:layout_constraintTop_toTopOf="@+id/textdela" />
+            <Button
+                android:id="@+id/butonInverseaza2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_baseline_swap_vertical_circle_24"
+                app:layout_constraintBottom_toBottomOf="@+id/textpanala"
+                app:layout_constraintStart_toEndOf="@+id/textpanala"
+                app:layout_constraintTop_toTopOf="@+id/textpanala" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerDrumuri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

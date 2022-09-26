@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/planificatorFragment">
+
+    <fragment
+        android:id="@+id/hartaFragment"
+        android:name="com.example.hike_planner_v2.hartaFragment"
+        android:label="Hartă"
+        tools:layout="@layout/fragment_harta" >
+        <argument
+            android:name="index_ob_selectat"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_hartaFragment_to_planificatorFragment"
+            app:destination="@id/planificatorFragment" />
+        <argument
+            android:name="indecsi_drumuri_selectate"
+            app:argType="integer[]"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/obiectiveFragment"
+        android:name="com.example.hike_planner_v2.obiectiveFragment"
+        android:label="Obiective"
+        tools:layout="@layout/fragment_obiective" >
+        <action
+            android:id="@+id/action_obiectiveFragment_to_planificatorFragment"
+            app:destination="@id/planificatorFragment" />
+        <action
+            android:id="@+id/action_obiectiveFragment_to_hartaFragment"
+            app:destination="@id/hartaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/planificatorFragment"
+        android:name="com.example.hike_planner_v2.planificatorFragment"
+        android:label="Planificator"
+        tools:layout="@layout/fragment_planificator" >
+        <argument
+            android:name="startul"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="destinatia"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_planificatorFragment_to_hartaFragment"
+            app:destination="@id/hartaFragment" />
+    </fragment>
+</navigation>
